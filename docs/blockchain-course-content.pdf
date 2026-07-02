@@ -1,0 +1,517 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 2958 >>
+stream
+BT
+/F1 10 Tf
+50 792 Td
+14 TL
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Blockchain Course Content) Tj
+T*
+/F1 10 Tf
+(Beginner to Intermediate | Hinglish | 8 Weeks | Self-paced or Instructor-led) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Course Objective) Tj
+T*
+/F1 10 Tf
+(Is course ka goal learners ko blockchain ki basic theory, practical use cases, wallet) Tj
+T*
+/F1 10 Tf
+(concepts, smart contracts, DApps, security practices, aur career roadmap samjhana hai.) Tj
+T*
+/F1 10 Tf
+(Course complete karne ke baad learner blockchain ecosystem ko clearly explain kar sakega) Tj
+T*
+/F1 10 Tf
+(aur basic decentralized application ka plan bana sakega.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Target Audience) Tj
+T*
+/F1 10 Tf
+(Students jo blockchain technology start karna chahte hain.) Tj
+T*
+/F1 10 Tf
+(Developers jo Web3 aur smart contracts seekhna chahte hain.) Tj
+T*
+/F1 10 Tf
+(Business professionals jo blockchain use cases samajhna chahte hain.) Tj
+T*
+/F1 10 Tf
+(Beginners jinko cryptocurrency aur decentralized systems ka overview chahiye.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Prerequisites) Tj
+T*
+/F1 10 Tf
+(Basic computer knowledge.) Tj
+T*
+/F1 10 Tf
+(Internet aur browser usage ka experience.) Tj
+T*
+/F1 10 Tf
+(Programming knowledge helpful hai, lekin mandatory nahi.) Tj
+T*
+/F1 10 Tf
+(Developer track ke liye JavaScript / TypeScript basics recommended hain.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 1: Blockchain Fundamentals) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Blockchain kya hai?) Tj
+T*
+/F1 10 Tf
+(- Centralized, decentralized, aur distributed systems.) Tj
+T*
+/F1 10 Tf
+(- Blocks, transactions, hashes, nonce, aur chain structure.) Tj
+T*
+/F1 10 Tf
+(- Immutability aur transparency.) Tj
+T*
+/F1 10 Tf
+(- Public vs private blockchains.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Ek simple block diagram banaiye: transaction data, previous hash, current) Tj
+T*
+/F1 10 Tf
+(hash, timestamp, aur nonce.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 2: Cryptography Basics) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Hashing kya hoti hai?) Tj
+T*
+/F1 10 Tf
+(- SHA-256 ka high-level overview.) Tj
+T*
+/F1 10 Tf
+(- Public key aur private key ka role.) Tj
+T*
+/F1 10 Tf
+(- Digital signatures.) Tj
+T*
+/F1 10 Tf
+(- Wallet address kaise banta hai?) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Online hash generator me text ka hash banakar observe kariye ki small change) Tj
+T*
+/F1 10 Tf
+(se output completely change hota hai.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 3: Consensus Mechanisms) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Consensus ki need kyun hoti hai?) Tj
+T*
+/F1 10 Tf
+(- Proof of Work.) Tj
+T*
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Length 2744 >>
+stream
+BT
+/F1 10 Tf
+50 792 Td
+14 TL
+/F1 10 Tf
+(- Proof of Stake.) Tj
+T*
+/F1 10 Tf
+(- Validators, miners, staking, gas fees.) Tj
+T*
+/F1 10 Tf
+(- Forks aur finality.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Proof of Work aur Proof of Stake ke pros and cons ki comparison table banaiye.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 4: Cryptocurrency and Wallets) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Cryptocurrency kya hai?) Tj
+T*
+/F1 10 Tf
+(- Coins vs tokens.) Tj
+T*
+/F1 10 Tf
+(- Hot wallet vs cold wallet.) Tj
+T*
+/F1 10 Tf
+(- Seed phrase aur backup practices.) Tj
+T*
+/F1 10 Tf
+(- Exchanges, custody, aur self-custody.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Ek testnet wallet setup ka written walkthrough banaiye. Real funds use na) Tj
+T*
+/F1 10 Tf
+(karein.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 5: Smart Contracts) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Smart contract kya hota hai?) Tj
+T*
+/F1 10 Tf
+(- Ethereum Virtual Machine ka overview.) Tj
+T*
+/F1 10 Tf
+(- Solidity introduction.) Tj
+T*
+/F1 10 Tf
+(- Contract deployment lifecycle.) Tj
+T*
+/F1 10 Tf
+(- Events, functions, state variables, aur gas.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Simple voting system ka paper design banaiye: voters, candidates, vote count,) Tj
+T*
+/F1 10 Tf
+(aur restrictions.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 6: Decentralized Applications) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- DApp kya hota hai?) Tj
+T*
+/F1 10 Tf
+(- Frontend, wallet, smart contract, aur blockchain node interaction.) Tj
+T*
+/F1 10 Tf
+(- Web3 libraries ka overview.) Tj
+T*
+/F1 10 Tf
+(- Oracles ka role.) Tj
+T*
+/F1 10 Tf
+(- DApp UX challenges.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Ek DApp idea choose karke architecture draw kariye: frontend, wallet,) Tj
+T*
+/F1 10 Tf
+(contract, data source.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 7: Blockchain Use Cases) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Finance and payments.) Tj
+T*
+/F1 10 Tf
+(- Supply chain tracking.) Tj
+T*
+/F1 10 Tf
+(- Identity management.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2441 >>
+stream
+BT
+/F1 10 Tf
+50 792 Td
+14 TL
+/F1 10 Tf
+(- NFTs and digital ownership.) Tj
+T*
+/F1 10 Tf
+(- Healthcare records.) Tj
+T*
+/F1 10 Tf
+(- Governance and voting.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Ek use case select karke likhiye: blockchain kyun useful hai, stakeholders) Tj
+T*
+/F1 10 Tf
+(kaun hain, aur risks kya hain?) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Week 8: Security, Legal Awareness, and Career Roadmap) Tj
+T*
+/F1 10 Tf
+(Topics:) Tj
+T*
+/F1 10 Tf
+(- Common scams: phishing, fake airdrops, rug pulls.) Tj
+T*
+/F1 10 Tf
+(- Smart contract vulnerabilities.) Tj
+T*
+/F1 10 Tf
+(- Audit ka importance.) Tj
+T*
+/F1 10 Tf
+(- Regulatory awareness.) Tj
+T*
+/F1 10 Tf
+(- Career paths: developer, auditor, product manager, analyst, community manager.) Tj
+T*
+/F1 10 Tf
+(- Learning roadmap and portfolio ideas.) Tj
+T*
+/F1 10 Tf
+(Learning Outcomes:) Tj
+T*
+/F1 10 Tf
+(- Learner key concepts simple language me explain kar sakega.) Tj
+T*
+/F1 10 Tf
+(- Learner practical examples aur limitations identify kar sakega.) Tj
+T*
+/F1 10 Tf
+(Activity: Apna 30-day blockchain learning plan banaiye jisme reading, practice, project,) Tj
+T*
+/F1 10 Tf
+(aur portfolio tasks hon.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Capstone Project Ideas) Tj
+T*
+/F1 10 Tf
+(1. Simple token concept document.) Tj
+T*
+/F1 10 Tf
+(2. Decentralized voting system design.) Tj
+T*
+/F1 10 Tf
+(3. Supply chain tracking workflow.) Tj
+T*
+/F1 10 Tf
+(4. NFT certificate issuing platform plan.) Tj
+T*
+/F1 10 Tf
+(5. Crypto wallet security checklist website.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Assessment Plan) Tj
+T*
+/F1 10 Tf
+(Weekly quiz: 20%) Tj
+T*
+/F1 10 Tf
+(Practical activities: 30%) Tj
+T*
+/F1 10 Tf
+(Final capstone project: 40%) Tj
+T*
+/F1 10 Tf
+(Participation / discussion: 10%) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Recommended Tools) Tj
+T*
+/F1 10 Tf
+(Browser-based blockchain explorers.) Tj
+T*
+/F1 10 Tf
+(Testnet wallet.) Tj
+T*
+/F1 10 Tf
+(Remix IDE for Solidity practice.) Tj
+T*
+/F1 10 Tf
+(GitHub for portfolio.) Tj
+T*
+/F1 10 Tf
+(Documentation from major blockchain platforms.) Tj
+T*
+/F1 10 Tf
+() Tj
+T*
+/F1 15 Tf
+(Safety Note) Tj
+T*
+/F1 10 Tf
+(Learning ke liye testnets ka use karein. Real private keys, seed phrases, ya real funds) Tj
+T*
+/F1 10 Tf
+(kisi demo ya practice activity me share na karein.) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 8 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000003095 00000 n 
+0000003221 00000 n 
+0000006017 00000 n 
+0000006143 00000 n 
+0000008636 00000 n 
+0000008762 00000 n 
+0000008831 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R >>
+startxref
+8880
+%%EOF
