@@ -1,0 +1,296 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 3272 >>
+stream
+BT
+/F2 20 Tf 54 760 Td (Django Framework and MVT Model Notes) Tj
+/F1 10.5 Tf 54 732 Td () Tj
+/F2 14 Tf 54 717 Td (1. What is Django?) Tj
+/F1 10.5 Tf 54 695 Td () Tj
+/F1 10.5 Tf 54 680 Td (Django is a high-level Python web framework used to build secure,) Tj
+/F1 10.5 Tf 54 665 Td (maintainable, and scalable web applications quickly. It follows the) Tj
+/F1 10.5 Tf 54 650 Td ("batteries-included" philosophy, meaning it provides many built-in features) Tj
+/F1 10.5 Tf 54 635 Td (such as URL routing, database integration, authentication, form handling, an) Tj
+/F1 10.5 Tf 54 620 Td (admin interface, security tools, and template rendering.) Tj
+/F1 10.5 Tf 54 605 Td () Tj
+/F1 10.5 Tf 54 590 Td (Django is commonly used for content management systems, e-commerce platforms,) Tj
+/F1 10.5 Tf 54 575 Td (social applications, APIs, dashboards, and data-driven websites.) Tj
+/F1 10.5 Tf 54 560 Td () Tj
+/F2 14 Tf 54 545 Td (2. Key Features of Django) Tj
+/F1 10.5 Tf 54 523 Td () Tj
+/F1 10.5 Tf 70 508 Td (? **Rapid development:** Django provides ready-made components that reduce) Tj
+/F1 10.5 Tf 70 493 Td (  repetitive coding.) Tj
+/F1 10.5 Tf 70 478 Td (? **Secure by default:** It helps protect against common web attacks such as) Tj
+/F1 10.5 Tf 70 463 Td (  cross-site scripting, cross-site request forgery, SQL injection, and) Tj
+/F1 10.5 Tf 70 448 Td (  clickjacking.) Tj
+/F1 10.5 Tf 70 433 Td (? **Scalable architecture:** Django can support small projects as well as) Tj
+/F1 10.5 Tf 70 418 Td (  large, high-traffic applications.) Tj
+/F1 10.5 Tf 70 403 Td (? **Object-Relational Mapper \(ORM\):** Developers can interact with databases) Tj
+/F1 10.5 Tf 70 388 Td (  using Python classes instead of writing raw SQL for most operations.) Tj
+/F1 10.5 Tf 70 373 Td (? **Automatic admin interface:** Django can generate a powerful admin panel) Tj
+/F1 10.5 Tf 70 358 Td (  from application models.) Tj
+/F1 10.5 Tf 70 343 Td (? **Reusable apps:** A Django project can be divided into multiple apps, and) Tj
+/F1 10.5 Tf 70 328 Td (  each app can be reused in other projects.) Tj
+/F1 10.5 Tf 70 313 Td (? **Template system:** Django templates help separate presentation logic from) Tj
+/F1 10.5 Tf 70 298 Td (  business logic.) Tj
+/F1 10.5 Tf 54 283 Td () Tj
+/F2 14 Tf 54 268 Td (3. Django Project Structure) Tj
+/F1 10.5 Tf 54 246 Td () Tj
+/F1 10.5 Tf 54 231 Td (A typical Django project contains a project package and one or more apps.) Tj
+/F1 10.5 Tf 54 216 Td () Tj
+/F1 10.5 Tf 70 201 Td (? **Project:** The complete web application and its global configuration.) Tj
+/F1 10.5 Tf 70 186 Td (? **App:** A modular component that handles one specific feature, such as) Tj
+/F1 10.5 Tf 70 171 Td (  users, blog posts, orders, or payments.) Tj
+/F1 10.5 Tf 70 156 Td (? **settings.py:** Stores configuration such as installed apps, middleware,) Tj
+/F1 10.5 Tf 70 141 Td (  database settings, static files, and security settings.) Tj
+/F1 10.5 Tf 70 126 Td (? **urls.py:** Maps URL patterns to views.) Tj
+/F1 10.5 Tf 70 111 Td (? **models.py:** Defines database tables using Python classes.) Tj
+/F1 10.5 Tf 70 96 Td (? **views.py:** Contains request-handling logic.) Tj
+/F1 10.5 Tf 70 81 Td (? **templates:** Contains HTML files used to display pages.) Tj
+/F1 9 Tf 285 30 Td (Page 1) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2942 >>
+stream
+BT
+/F1 10.5 Tf 70 760 Td (? **admin.py:** Registers models for the Django admin site.) Tj
+/F1 10.5 Tf 70 745 Td (? **migrations:** Stores database schema change history.) Tj
+/F1 10.5 Tf 54 730 Td () Tj
+/F2 14 Tf 54 715 Td (4. What is the MVT Model?) Tj
+/F1 10.5 Tf 54 693 Td () Tj
+/F1 10.5 Tf 54 678 Td (Django follows the MVT architectural pattern, which stands for **Model-View-) Tj
+/F1 10.5 Tf 54 663 Td (Template**. MVT is Django's variation of the common MVC pattern. It separates) Tj
+/F1 10.5 Tf 54 648 Td (an application into layers so that data handling, business logic, and) Tj
+/F1 10.5 Tf 54 633 Td (presentation can be developed and maintained independently.) Tj
+/F1 10.5 Tf 54 618 Td () Tj
+/F2 14 Tf 54 603 Td (5. Model in MVT) Tj
+/F1 10.5 Tf 54 581 Td () Tj
+/F1 10.5 Tf 54 566 Td (The **Model** layer represents the data structure of the application. A model) Tj
+/F1 10.5 Tf 54 551 Td (is a Python class that usually maps to a database table. Each model field maps) Tj
+/F1 10.5 Tf 54 536 Td (to a database column.) Tj
+/F1 10.5 Tf 54 521 Td () Tj
+/F1 10.5 Tf 54 506 Td (Responsibilities of the Model layer include:) Tj
+/F1 10.5 Tf 54 491 Td () Tj
+/F1 10.5 Tf 70 476 Td (? Defining database tables and fields.) Tj
+/F1 10.5 Tf 70 461 Td (? Representing relationships between tables.) Tj
+/F1 10.5 Tf 70 446 Td (? Validating data rules at the model level.) Tj
+/F1 10.5 Tf 70 431 Td (? Providing database operations through Django's ORM.) Tj
+/F1 10.5 Tf 70 416 Td (? Supporting migrations when the schema changes.) Tj
+/F1 10.5 Tf 54 401 Td () Tj
+/F1 10.5 Tf 54 386 Td (Example concept:) Tj
+/F1 10.5 Tf 54 371 Td () Tj
+/F3 9 Tf 62 356 Td (    class Student\(models.Model\):) Tj
+/F3 9 Tf 62 344 Td (        name = models.CharField\(max_length=100\)) Tj
+/F3 9 Tf 62 332 Td (        email = models.EmailField\(unique=True\)) Tj
+/F3 9 Tf 62 320 Td (        created_at = models.DateTimeField\(auto_now_add=True\)) Tj
+/F1 10.5 Tf 54 308 Td () Tj
+/F1 10.5 Tf 54 293 Td (In this example, `Student` represents a database table, and `name`, `email`,) Tj
+/F1 10.5 Tf 54 278 Td (and `created_at` represent columns.) Tj
+/F1 10.5 Tf 54 263 Td () Tj
+/F2 14 Tf 54 248 Td (6. View in MVT) Tj
+/F1 10.5 Tf 54 226 Td () Tj
+/F1 10.5 Tf 54 211 Td (The **View** layer contains the logic that handles web requests and returns) Tj
+/F1 10.5 Tf 54 196 Td (web responses. A view receives an HTTP request, performs required processing,) Tj
+/F1 10.5 Tf 54 181 Td (interacts with models when needed, and returns a response such as an HTML) Tj
+/F1 10.5 Tf 54 166 Td (page, JSON data, redirect, or error message.) Tj
+/F1 10.5 Tf 54 151 Td () Tj
+/F1 10.5 Tf 54 136 Td (Responsibilities of the View layer include:) Tj
+/F1 10.5 Tf 54 121 Td () Tj
+/F1 10.5 Tf 70 106 Td (? Receiving and processing user requests.) Tj
+/F1 10.5 Tf 70 91 Td (? Fetching or updating data through models.) Tj
+/F1 10.5 Tf 70 76 Td (? Applying business logic.) Tj
+/F1 9 Tf 285 30 Td (Page 2) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2599 >>
+stream
+BT
+/F1 10.5 Tf 70 760 Td (? Selecting templates for rendering.) Tj
+/F1 10.5 Tf 70 745 Td (? Returning HTTP responses.) Tj
+/F1 10.5 Tf 54 730 Td () Tj
+/F1 10.5 Tf 54 715 Td (Example concept:) Tj
+/F1 10.5 Tf 54 700 Td () Tj
+/F3 9 Tf 62 685 Td (    def student_list\(request\):) Tj
+/F3 9 Tf 62 673 Td (        students = Student.objects.all\(\)) Tj
+/F3 9 Tf 62 661 Td (        return render\(request, "students/list.html", {"students":) Tj
+/F3 9 Tf 62 649 Td (students}\)) Tj
+/F1 10.5 Tf 54 637 Td () Tj
+/F1 10.5 Tf 54 622 Td (Here, the view fetches student records and sends them to a template for) Tj
+/F1 10.5 Tf 54 607 Td (display.) Tj
+/F1 10.5 Tf 54 592 Td () Tj
+/F2 14 Tf 54 577 Td (7. Template in MVT) Tj
+/F1 10.5 Tf 54 555 Td () Tj
+/F1 10.5 Tf 54 540 Td (The **Template** layer controls how information is displayed to the user.) Tj
+/F1 10.5 Tf 54 525 Td (Templates are usually HTML files with Django Template Language syntax for) Tj
+/F1 10.5 Tf 54 510 Td (variables, loops, conditions, filters, and template inheritance.) Tj
+/F1 10.5 Tf 54 495 Td () Tj
+/F1 10.5 Tf 54 480 Td (Responsibilities of the Template layer include:) Tj
+/F1 10.5 Tf 54 465 Td () Tj
+/F1 10.5 Tf 70 450 Td (? Presenting data in HTML format.) Tj
+/F1 10.5 Tf 70 435 Td (? Displaying variables passed by views.) Tj
+/F1 10.5 Tf 70 420 Td (? Using loops and conditions for dynamic pages.) Tj
+/F1 10.5 Tf 70 405 Td (? Reusing layouts through template inheritance.) Tj
+/F1 10.5 Tf 70 390 Td (? Keeping presentation separate from Python logic.) Tj
+/F1 10.5 Tf 54 375 Td () Tj
+/F1 10.5 Tf 54 360 Td (Example concept:) Tj
+/F1 10.5 Tf 54 345 Td () Tj
+/F3 9 Tf 62 330 Td (    <h1>Students</h1>) Tj
+/F3 9 Tf 62 318 Td (    <ul>) Tj
+/F3 9 Tf 62 306 Td (      {% for student in students %}) Tj
+/F3 9 Tf 62 294 Td (        <li>{{ student.name }} - {{ student.email }}</li>) Tj
+/F3 9 Tf 62 282 Td (      {% endfor %}) Tj
+/F3 9 Tf 62 270 Td (    </ul>) Tj
+/F1 10.5 Tf 54 258 Td () Tj
+/F2 14 Tf 54 243 Td (8. URL Dispatcher) Tj
+/F1 10.5 Tf 54 221 Td () Tj
+/F1 10.5 Tf 54 206 Td (Although URL routing is not part of the MVT acronym, it is essential in) Tj
+/F1 10.5 Tf 54 191 Td (Django. The URL dispatcher maps incoming request paths to the correct view) Tj
+/F1 10.5 Tf 54 176 Td (function or class-based view.) Tj
+/F1 10.5 Tf 54 161 Td () Tj
+/F1 10.5 Tf 54 146 Td (Example concept:) Tj
+/F1 10.5 Tf 54 131 Td () Tj
+/F3 9 Tf 62 116 Td (    urlpatterns = [) Tj
+/F3 9 Tf 62 104 Td (        path\("students/", views.student_list, name="student_list"\),) Tj
+/F3 9 Tf 62 92 Td (    ]) Tj
+/F1 10.5 Tf 54 80 Td () Tj
+/F1 9 Tf 285 30 Td (Page 3) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3109 >>
+stream
+BT
+/F1 10.5 Tf 54 760 Td (When a user visits `/students/`, Django calls the `student_list` view.) Tj
+/F1 10.5 Tf 54 745 Td () Tj
+/F2 14 Tf 54 730 Td (9. Request-Response Flow in Django MVT) Tj
+/F1 10.5 Tf 54 708 Td () Tj
+/F1 10.5 Tf 70 693 Td (1. A user enters a URL in the browser.) Tj
+/F1 10.5 Tf 70 678 Td (2. Django receives the HTTP request.) Tj
+/F1 10.5 Tf 70 663 Td (3. The URL dispatcher matches the URL to a view.) Tj
+/F1 10.5 Tf 70 648 Td (4. The view executes business logic and may interact with models.) Tj
+/F1 10.5 Tf 70 633 Td (5. The model communicates with the database using the ORM.) Tj
+/F1 10.5 Tf 70 618 Td (6. The view passes data to a template.) Tj
+/F1 10.5 Tf 70 603 Td (7. The template renders the final HTML.) Tj
+/F1 10.5 Tf 70 588 Td (8. Django returns the HTTP response to the browser.) Tj
+/F1 10.5 Tf 54 573 Td () Tj
+/F2 14 Tf 54 558 Td (10. MVT Compared with MVC) Tj
+/F1 10.5 Tf 54 536 Td () Tj
+/F1 10.5 Tf 70 521 Td (? In MVC, the **Controller** handles user input and coordinates between Model) Tj
+/F1 10.5 Tf 70 506 Td (  and View.) Tj
+/F1 10.5 Tf 70 491 Td (? In Django MVT, much of the controller responsibility is handled by Django) Tj
+/F1 10.5 Tf 70 476 Td (  itself through URL routing and framework internals.) Tj
+/F1 10.5 Tf 70 461 Td (? Django's **View** is closer to the controller in MVC because it contains) Tj
+/F1 10.5 Tf 70 446 Td (  request-handling logic.) Tj
+/F1 10.5 Tf 70 431 Td (? Django's **Template** is closer to the view in MVC because it controls) Tj
+/F1 10.5 Tf 70 416 Td (  presentation.) Tj
+/F1 10.5 Tf 54 401 Td () Tj
+/F2 14 Tf 54 386 Td (11. Advantages of the MVT Pattern) Tj
+/F1 10.5 Tf 54 364 Td () Tj
+/F1 10.5 Tf 70 349 Td (? **Separation of concerns:** Data, logic, and presentation are organized into) Tj
+/F1 10.5 Tf 70 334 Td (  separate layers.) Tj
+/F1 10.5 Tf 70 319 Td (? **Maintainability:** Code is easier to update, test, and debug.) Tj
+/F1 10.5 Tf 70 304 Td (? **Reusability:** Apps, models, views, and templates can often be reused.) Tj
+/F1 10.5 Tf 70 289 Td (? **Team collaboration:** Backend developers can work on models and views) Tj
+/F1 10.5 Tf 70 274 Td (  while frontend developers work on templates.) Tj
+/F1 10.5 Tf 70 259 Td (? **Cleaner code:** Business logic is kept away from HTML presentation.) Tj
+/F1 10.5 Tf 54 244 Td () Tj
+/F2 14 Tf 54 229 Td (12. Important Django Commands) Tj
+/F1 10.5 Tf 54 207 Td () Tj
+/F1 10.5 Tf 70 192 Td (? `django-admin startproject projectname` creates a new Django project.) Tj
+/F1 10.5 Tf 70 177 Td (? `python manage.py startapp appname` creates a new app.) Tj
+/F1 10.5 Tf 70 162 Td (? `python manage.py runserver` starts the development server.) Tj
+/F1 10.5 Tf 70 147 Td (? `python manage.py makemigrations` creates migration files from model) Tj
+/F1 10.5 Tf 70 132 Td (  changes.) Tj
+/F1 10.5 Tf 70 117 Td (? `python manage.py migrate` applies migrations to the database.) Tj
+/F1 10.5 Tf 70 102 Td (? `python manage.py createsuperuser` creates an admin user.) Tj
+/F1 10.5 Tf 70 87 Td (? `python manage.py test` runs tests.) Tj
+/F1 10.5 Tf 54 72 Td () Tj
+/F1 9 Tf 285 30 Td (Page 4) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 1344 >>
+stream
+BT
+/F2 14 Tf 54 760 Td (13. Best Practices) Tj
+/F1 10.5 Tf 54 738 Td () Tj
+/F1 10.5 Tf 70 723 Td (? Keep views focused and avoid placing too much logic in templates.) Tj
+/F1 10.5 Tf 70 708 Td (? Use models for data rules and database relationships.) Tj
+/F1 10.5 Tf 70 693 Td (? Use forms or serializers for input validation.) Tj
+/F1 10.5 Tf 70 678 Td (? Split large projects into small reusable apps.) Tj
+/F1 10.5 Tf 70 663 Td (? Store sensitive settings such as secret keys and database passwords in) Tj
+/F1 10.5 Tf 70 648 Td (  environment variables.) Tj
+/F1 10.5 Tf 70 633 Td (? Write tests for models, views, forms, and important user flows.) Tj
+/F1 10.5 Tf 70 618 Td (? Use Django's built-in security features instead of disabling them.) Tj
+/F1 10.5 Tf 54 603 Td () Tj
+/F2 14 Tf 54 588 Td (14. Quick Summary) Tj
+/F1 10.5 Tf 54 566 Td () Tj
+/F1 10.5 Tf 54 551 Td (Django is a powerful Python framework for building web applications quickly) Tj
+/F1 10.5 Tf 54 536 Td (and securely. Its MVT architecture divides the application into Models for) Tj
+/F1 10.5 Tf 54 521 Td (data, Views for request handling and business logic, and Templates for) Tj
+/F1 10.5 Tf 54 506 Td (presentation. This structure helps developers create organized, reusable, and) Tj
+/F1 10.5 Tf 54 491 Td (maintainable web applications.) Tj
+/F1 9 Tf 285 30 Td (Page 5) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 5 >>
+endobj
+15 0 obj
+<< /Type /Catalog /Pages 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000003552 00000 n 
+0000003699 00000 n 
+0000006693 00000 n 
+0000006840 00000 n 
+0000009491 00000 n 
+0000009638 00000 n 
+0000012800 00000 n 
+0000012949 00000 n 
+0000014346 00000 n 
+0000014495 00000 n 
+0000014579 00000 n 
+trailer
+<< /Size 16 /Root 15 0 R >>
+startxref
+14630
+%%EOF
